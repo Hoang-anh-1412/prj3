@@ -15,7 +15,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Navigation Header */}
       <nav className="bg-blue-600 text-white shadow-lg">
         <div className="max-w-7xl mx-auto px-4">
@@ -50,12 +50,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       </nav>
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto py-6 px-4">
+      <main className="flex-1 max-w-7xl mx-auto py-6 px-4 w-full">
         {children}
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white mt-auto">
+      <footer className="bg-gray-800 text-white">
         <div className="max-w-7xl mx-auto py-4 px-4 text-center">
           <p>&copy; 2024 Vocabulary Learning App. Built with Next.js and React.</p>
         </div>

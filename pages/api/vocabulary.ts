@@ -51,7 +51,8 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
           const searchTerm = search.toLowerCase();
           const filtered = vocabulary.filter(
             v => v.word.toLowerCase().includes(searchTerm) || 
-                 v.meaning.toLowerCase().includes(searchTerm)
+                 v.meaning.toLowerCase().includes(searchTerm) ||
+                 v.phonetic.toLowerCase().includes(searchTerm)
           );
           return res.status(200).json(filtered);
         }
@@ -64,10 +65,10 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     case 'POST':
       // Add new vocabulary
       try {
-        const { word, meaning } = req.body;
+        const { word, meaning, phonetic, topic } = req.body;
         
-        if (!word || !meaning) {
-          return res.status(400).json({ error: 'Word and meaning are required' });
+        if (!word || !meaning || !phonetic || !topic) {
+          return res.status(400).json({ error: 'Word, meaning, phonetic and topic are required' });
         }
 
         const vocabulary = readVocabulary();
@@ -81,7 +82,9 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         const newVocabulary: Vocabulary = {
           id: getNextId(vocabulary),
           word: word.trim(),
-          meaning: meaning.trim()
+          meaning: meaning.trim(),
+          phonetic: phonetic.trim(),
+          topic: topic.trim()
         };
 
         vocabulary.push(newVocabulary);
@@ -95,10 +98,10 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     case 'PUT':
       // Update existing vocabulary
       try {
-        const { id, word, meaning } = req.body;
+        const { id, word, meaning, phonetic, topic } = req.body;
         
-        if (!id || !word || !meaning) {
-          return res.status(400).json({ error: 'ID, word and meaning are required' });
+        if (!id || !word || !meaning || !phonetic || !topic) {
+          return res.status(400).json({ error: 'ID, word, meaning, phonetic and topic are required' });
         }
 
         const vocabulary = readVocabulary();
@@ -119,7 +122,9 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         vocabulary[index] = {
           id: parseInt(id),
           word: word.trim(),
-          meaning: meaning.trim()
+          meaning: meaning.trim(),
+          phonetic: phonetic.trim(),
+          topic: topic.trim()
         };
 
         writeVocabulary(vocabulary);

@@ -192,3 +192,9 @@ If you encounter any issues or have questions:
 **Happy Learning! 🎉**
 
 Start building your vocabulary today with this interactive learning tool!
+
+
+1
+2
+3
+4

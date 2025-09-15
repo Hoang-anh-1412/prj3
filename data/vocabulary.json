@@ -1,52 +1,268 @@
 [
   {
     "id": 1,
-    "word": "Hello",
-    "meaning": "Xin chào"
+    "word": "りんご",
+    "meaning": "quả táo",
+    "phonetic": "ringo",
+    "topic": "Thực phẩm"
   },
   {
     "id": 2,
-    "word": "Goodbye",
-    "meaning": "Tạm biệt"
+    "word": "ノート",
+    "meaning": "sổ tay",
+    "phonetic": "noto",
+    "topic": "Văn phòng"
   },
   {
     "id": 3,
-    "word": "Thank you",
-    "meaning": "Cảm ơn"
+    "word": "くるま",
+    "meaning": "ô tô",
+    "phonetic": "kuruma",
+    "topic": "Giao thông"
   },
   {
     "id": 4,
-    "word": "Please",
-    "meaning": "Làm ơn"
+    "word": "チョコレート",
+    "meaning": "sô cô la",
+    "phonetic": "chokoreto",
+    "topic": "Thực phẩm"
   },
   {
     "id": 5,
-    "word": "Yes",
-    "meaning": "Có"
+    "word": "ボールペン",
+    "meaning": "bút bi",
+    "phonetic": "booru pen",
+    "topic": "Văn phòng"
   },
   {
     "id": 6,
-    "word": "No",
-    "meaning": "Không"
+    "word": "えんぴつ",
+    "meaning": "Bút chì",
+    "phonetic": "enpitsu",
+    "topic": "Văn phòng"
   },
   {
     "id": 7,
-    "word": "Beautiful",
-    "meaning": "Đẹp"
+    "word": "そうです",
+    "meaning": "đúng vậy",
+    "phonetic": "so desu",
+    "topic": "Giao tiếp"
   },
   {
     "id": 8,
-    "word": "Amazing",
-    "meaning": "Tuyệt vời"
+    "word": "ざっし",
+    "meaning": "tạp chí",
+    "phonetic": "zasshi",
+    "topic": "Văn phòng"
   },
   {
     "id": 9,
-    "word": "Computer",
-    "meaning": "Máy tính"
+    "word": "しんぶん",
+    "meaning": "báo",
+    "phonetic": "shinbun",
+    "topic": "Văn phòng"
   },
   {
     "id": 10,
-    "word": "Internet",
-    "meaning": "Internet"
+    "word": "テレビ",
+    "meaning": "ti vi",
+    "phonetic": "terebi",
+    "topic": "Giải trí"
+  },
+  {
+    "id": 11,
+    "word": "かいしゃ",
+    "meaning": "công ty",
+    "phonetic": "kaisha",
+    "topic": "Công việc"
+  },
+  {
+    "id": 12,
+    "word": "パソコン",
+    "meaning": "máy tính",
+    "phonetic": "pasokon",
+    "topic": "Công nghệ"
+  },
+  {
+    "id": 13,
+    "word": "モニター",
+    "meaning": "màn hình",
+    "phonetic": "monita",
+    "topic": "Công nghệ"
+  },
+  {
+    "id": 14,
+    "word": "キーボード",
+    "meaning": "bàn phím",
+    "phonetic": "kiiboodo",
+    "topic": "Công nghệ"
+  },
+  {
+    "id": 15,
+    "word": "マウス",
+    "meaning": "chuột máy tính",
+    "phonetic": "mausu",
+    "topic": "Công nghệ"
+  },
+  {
+    "id": 16,
+    "word": "ハードディスク",
+    "meaning": "ổ cứng",
+    "phonetic": "haado disuku",
+    "topic": "Công nghệ"
+  },
+  {
+    "id": 17,
+    "word": "でんわ",
+    "meaning": "điện thoại",
+    "phonetic": "denwa",
+    "topic": "Công nghệ"
+  },
+  {
+    "id": 18,
+    "word": "ホッチキス",
+    "meaning": "cái dập ghim",
+    "phonetic": "hotchikisu",
+    "topic": "Văn phòng"
+  },
+  {
+    "id": 19,
+    "word": "けしゴム",
+    "meaning": "cục tẩy",
+    "phonetic": "keshigomu",
+    "topic": "Văn phòng"
+  },
+  {
+    "id": 20,
+    "word": "カード",
+    "meaning": "thẻ (nhân viên, ID card)",
+    "phonetic": "kaado",
+    "topic": "Văn phòng"
+  },
+  {
+    "id": 21,
+    "word": "しゃいん",
+    "meaning": "nhân viên công ty",
+    "phonetic": "shain",
+    "topic": "Công việc"
+  },
+  {
+    "id": 22,
+    "word": "ぶちょう",
+    "meaning": "trưởng phòng",
+    "phonetic": "buchou",
+    "topic": "Công việc"
+  },
+  {
+    "id": 23,
+    "word": "かんとく",
+    "meaning": "quản lý/giám sát",
+    "phonetic": "kantoku",
+    "topic": "Công việc"
+  },
+  {
+    "id": 24,
+    "word": "コーヒー",
+    "meaning": "cà phê",
+    "phonetic": "koohii",
+    "topic": "Thực phẩm"
+  },
+  {
+    "id": 25,
+    "word": "コード",
+    "meaning": "code/mã nguồn",
+    "phonetic": "koodo",
+    "topic": "Lập trình"
+  },
+  {
+    "id": 26,
+    "word": "アプリ",
+    "meaning": "ứng dụng",
+    "phonetic": "apuri",
+    "topic": "Lập trình"
+  },
+  {
+    "id": 27,
+    "word": "ソフト",
+    "meaning": "phần mềm",
+    "phonetic": "sofuto",
+    "topic": "Lập trình"
+  },
+  {
+    "id": 28,
+    "word": "プログラミング",
+    "meaning": "lập trình",
+    "phonetic": "puroguramingu",
+    "topic": "Lập trình"
+  },
+  {
+    "id": 29,
+    "word": "デバッグ",
+    "meaning": "gỡ lỗi",
+    "phonetic": "debaggu",
+    "topic": "Lập trình"
+  },
+  {
+    "id": 30,
+    "word": "ギット",
+    "meaning": "Git",
+    "phonetic": "gitto",
+    "topic": "Lập trình"
+  },
+  {
+    "id": 31,
+    "word": "サーバー",
+    "meaning": "server",
+    "phonetic": "saabaa",
+    "topic": "Lập trình"
+  },
+  {
+    "id": 32,
+    "word": "ネットワーク",
+    "meaning": "mạng",
+    "phonetic": "nettowaaku",
+    "topic": "Lập trình"
+  },
+  {
+    "id": 33,
+    "word": "かいぎ",
+    "meaning": "họp",
+    "phonetic": "kaigi",
+    "topic": "Công việc"
+  },
+  {
+    "id": 34,
+    "word": "れんらく",
+    "meaning": "liên lạc",
+    "phonetic": "renraku",
+    "topic": "Giao tiếp"
+  },
+  {
+    "id": 35,
+    "word": "しゅっぴん",
+    "meaning": "trình bày báo cáo",
+    "phonetic": "shuppin",
+    "topic": "Công việc"
+  },
+  {
+    "id": 36,
+    "word": "しめきり",
+    "meaning": "deadline",
+    "phonetic": "shimekiri",
+    "topic": "Công việc"
+  },
+  {
+    "id": 37,
+    "word": "へんこう",
+    "meaning": "thay đổi",
+    "phonetic": "henkou",
+    "topic": "Giao tiếp"
+  },
+  {
+    "id": 38,
+    "word": "とうろく",
+    "meaning": "đăng ký",
+    "phonetic": "touroku",
+    "topic": "Giao tiếp"
   }
 ]

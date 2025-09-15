@@ -4,14 +4,18 @@ export interface Vocabulary {
   id: number;
   word: string;
   meaning: string;
+  phonetic: string;
+  topic: string;
 }
 
 export interface QuizQuestion {
   id: number;
-  question: string; // The word or meaning shown to user
+  question: string; // The phonetic or meaning shown to user
   correctAnswer: string; // The correct answer
-  options: string[]; // Array of 4 options including correct answer
-  type: 'word-to-meaning' | 'meaning-to-word'; // Type of question
+  options?: string[]; // Array of 4 options including correct answer (optional for text input mode)
+  type: 'phonetic-to-meaning' | 'meaning-to-phonetic' | 'phonetic-to-meaning-text' | 'meaning-to-phonetic-text'; // Type of question
+  word: string; // The word that this question is about
+  inputType: 'multiple-choice' | 'text-input';
 }
 
 export interface QuizResult {
@@ -20,6 +24,7 @@ export interface QuizResult {
   selectedAnswer: string;
   correctAnswer: string;
   isCorrect: boolean;
+  word: string;
 }
 
 export interface Quiz {
@@ -27,5 +32,5 @@ export interface Quiz {
   currentQuestionIndex: number;
   results: QuizResult[];
   isFinished: boolean;
-  mode: 'word-to-meaning' | 'meaning-to-word' | 'mixed';
+  mode: 'phonetic-to-meaning' | 'meaning-to-phonetic' | 'mixed' | 'phonetic-to-meaning-text' | 'meaning-to-phonetic-text' | 'mixed-text';
 }
