@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "word": "Hello",
+    "meaning": "Xin chào"
+  },
+  {
+    "id": 2,
+    "word": "Goodbye",
+    "meaning": "Tạm biệt"
+  },
+  {
+    "id": 3,
+    "word": "Thank you",
+    "meaning": "Cảm ơn"
+  },
+  {
+    "id": 4,
+    "word": "Please",
+    "meaning": "Làm ơn"
+  },
+  {
+    "id": 5,
+    "word": "Yes",
+    "meaning": "Có"
+  },
+  {
+    "id": 6,
+    "word": "No",
+    "meaning": "Không"
+  },
+  {
+    "id": 7,
+    "word": "Beautiful",
+    "meaning": "Đẹp"
+  },
+  {
+    "id": 8,
+    "word": "Amazing",
+    "meaning": "Tuyệt vời"
+  },
+  {
+    "id": 9,
+    "word": "Computer",
+    "meaning": "Máy tính"
+  },
+  {
+    "id": 10,
+    "word": "Internet",
+    "meaning": "Internet"
+  }
+]
